@@ -1,0 +1,21 @@
+Generador de sentencies CREATE, ALTER, INSERT INTO i UPDATE
+
+1) Es demana a l'usuari quina d'aquestes 4 vol
+2) CREATE: Es demanen els noms de les columnes, es demana una per una el tipus de dada que vol (els numeros MAX per a cada dada son constants),
+	   es pregunta quina de les paraules introduïdes es clau primaria, i si n'hi han de foranes el mateix,
+	   es demana si es NULL o NOT NULL per cada valor.
+		Filar prim: demanar quantes sentencies CREATE vol.
+   
+   ALTER: Nom de la taula a alterar, quina alteracio vol fer (drop, foreign key, etc.), amb quina o quines taules vol treballar.
+   
+   INSERT INTO: Es demanen els noms de les columnes, es demana el tipus de dada de cada columna,
+                es demana el numero MAX per a cada dada
+
+   UPDATE: Es demana la taula, es demana la/les columnes, etc.
+
+
+
++ control d'errors i comentaris per a cada funcionalitat
+++ arxius .py separats dins una carpeta que s'ajuntin tots a un __main__.py amb import
++++ ús d'una GUI i establiment de la variable __version__
+++++ rescatar diccionaris de noms i adreçes d'internet per a usarlos al INSERT INTO
